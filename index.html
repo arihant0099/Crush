@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Vaishu 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heart"></div>
+    <h1>For Vaishu 💖</h1>
+    <div class="photo">
+      <!-- Replace the src below with her photo later -->
+      <img src="./love.jpeg" alt="Vaishu's Photo" />
+    </div>
+    <p>
+        Tum meri zindagi ka sabse khoobsurat tohfa ho. Tumhari muskaan mere har dard ko bhula deti hai, aur tumhari baaton mein woh sukoon hai jo poori duniya nahi de sakti.
+      </p>
+      <p>
+        Ye chhota sa page sirf tumhare liye hai, kyunki tum mere dil ke sabse khaas kone mein rehti ho. 🌹
+      </p>      
+    <button class="button" onclick="showLove()">Click Me 💌</button>
+    <div class="footer">Made with ❤️ by Arihant</div>
+  </div>
+
+<!-- Custom Love Popup -->
+<div id="lovePopup">
+    <div class="popup-content">
+      <h2 style="color: #e91e63; font-family: 'Great Vibes', cursive;">Vaishu 💖</h2>
+      <p style="color: #333; font-size: 1.1em;">
+        Mere dil ki har dhadkan mein sirf tum ho. <br>
+        Tumhari muskaan meri duniya hai! 💌
+      </p>
+      <button onclick="closePopup()" class="button">Close 💕</button>
+    </div>
+  </div>
+  
+
+  <script>
+
+  function showLove() {
+    document.getElementById('lovePopup').style.display = 'flex';
+  }
+
+  function closePopup() {
+    document.getElementById('lovePopup').style.display = 'none';
+  }
+</script>
+</body>
+</html>
